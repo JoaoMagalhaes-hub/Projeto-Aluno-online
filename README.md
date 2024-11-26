@@ -31,3 +31,7 @@ No Spring Boot, a estrutura da API é organizada em quatro pacotes principais:
    - `@NoArgsConstructor` e `@AllArgsConstructor`: Facilitam a criação de objetos.
 
 No *Insomnia*, simulamos requisições como se fossem do frontend. Para o método `POST` no endpoint `/alunos`, enviamos um JSON com informações como nome, e-mail e CPF, que são processadas pelo Controller.
+
+5. *DTO*: DTO e uma classe que transfere dados entre diferentes camadas de um sistema, um DTO é como uma "caixinha" que carrega apenas os dados necessários para comunicação, protegendo informações e organizando o código.
+
+6. *Swagger*: O Swagger é como um manual interativo para sua API: ele mostra quais "portas" estão disponíveis, como entrar (requisições) e o que você vai encontrar do outro lado (respostas), ele ajuda bastante com a documentação.
