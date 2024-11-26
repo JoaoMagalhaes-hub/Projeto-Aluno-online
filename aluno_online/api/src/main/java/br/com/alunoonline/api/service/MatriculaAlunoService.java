@@ -101,6 +101,8 @@ public class MatriculaAlunoService {
             }
 
             disciplinaAlunoResponse.setStatus(matriculaAluno.getStatus());
+
+            disciplinasList.add(disciplinaAlunoResponse);
         }
 
         historicoAluno.setDisciplinaAlunoResponses(disciplinasList);
